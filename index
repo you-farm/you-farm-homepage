@@ -53,8 +53,10 @@ section{padding:85px 0}.cream{background:var(--cream)}.title{text-align:center;m
 <div class="card"><h3>⚠️ お知らせ</h3><p>収穫量によって、販売状況や終了時間が変わる場合があります。</p></div>
 </div></div></section>
 
-<section id="instagram"><div class="wrap"><div class="title"><small>INSTAGRAM</small><h2>農園の日々を発信中</h2></div><div class="igbox ig"><div style="font-size:52px">📷</div><div class="igname">@YOU_FARM</div><p>収穫状況・販売情報・農園の様子などを発信します。</p><a class="btn" href="https://www.instagram.com/" target="_blank" rel="noopener">Instagramを開く</a><p style="font-size:12px">※公開後にYOU FARMの実際のInstagram URLへ変更してください。</p></div></div></section>
-
+<section id="instagram
+"><div class="wrap"><div class="title"><small>INSTAGRAM</small><h2>農園の日々を発信中</h2></div><div class="igbox ig"><div style="font-size:52px">📷</div><div class="igname">@YOU_FARM</div><p>収穫状況・販売情報・農園の様子などを発信します。</p><a class="btn" href="https://www.instagram.com/" target="_blank" rel="noopener">Instagramを開く</a><p style="font-size:12px">※公開後にYOU FARMの実際のInstagram URLへ変更してください。</p></div></div></section>
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DdLo6TvE4_n/" data-instgrm-version="14"></blockquote>
+<script async src="https://www.instagram.com/embed.js"></script>
 <section id="access" class="cream"><div class="wrap"><div class="title"><small>ACCESS</small><h2>アクセス</h2></div><div class="info"><div><h3>いちご農園 YOU FARM</h3><p>千葉県野田市<br>住所・販売場所は決まり次第掲載します。</p><p><strong>営業時間：</strong>準備中</p></div><div class="map">ここにGoogleマップを埋め込む</div></div></div></section>
 
 <section><div class="wrap contact"><div class="title"><small>CONTACT</small><h2>お問い合わせ</h2></div><p>お問い合わせはInstagramのDMからお願いします。</p><a class="btn" href="#instagram">Instagramで問い合わせる</a></div></section>
