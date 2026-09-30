@@ -18,6 +18,12 @@ section{padding:85px 0}.cream{background:var(--cream)}.title{text-align:center;m
 .about{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.photo{min-height:410px;border-radius:30px;background:linear-gradient(145deg,#f3a4b2,#d8e2c7);display:flex;align-items:center;justify-content:center;color:#fff;font-size:22px;font-weight:800;text-align:center;box-shadow:0 15px 40px #0001}.tag{display:inline-block;background:#fce3e8;color:var(--pink);border-radius:999px;padding:5px 14px;font-size:13px;font-weight:800}
 .varieties{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.variety{overflow:hidden;border-radius:22px;background:#fff;box-shadow:0 8px 25px #0001}.variety .vphoto{height:220px;background:linear-gradient(135deg,#e95878,#f7c3c8);display:flex;align-items:center;justify-content:center;color:#fff;font-size:26px;font-weight:900}.variety:nth-child(2) .vphoto{background:linear-gradient(135deg,#d96d50,#f7d0ae)}.variety:nth-child(3) .vphoto{background:linear-gradient(135deg,#7a9d65,#d8e6b9)}.variety div:last-child{padding:20px}.sale{background:var(--green);color:#fff}.sale .title small{color:#f9d2d9}.sale .card{color:var(--dark)}.info{display:grid;grid-template-columns:1fr 1fr;gap:22px}.ig{background:#f8edf0}.igbox{text-align:center;padding:45px;border:2px dashed #e5b7c1;border-radius:25px}.igname{font-size:28px;font-weight:900;margin:10px}.map{height:280px;border-radius:25px;background:#e7e5df;display:flex;align-items:center;justify-content:center;font-weight:800;color:#777}.contact{text-align:center}.footer{background:#2f292b;color:#fff;padding:45px 0}.footer small{opacity:.65}
 @media(max-width:750px){.brand-logo{width:115px}.hero-logo{width:min(500px,88vw)}.navlinks{display:none}.hero{min-height:650px}.hero-inner{padding-top:80px}.grid,.varieties,.about,.info{grid-template-columns:1fr}.about{gap:30px}.photo{min-height:280px}section{padding:65px 0}.title h2{font-size:30px}.hero p{font-size:16px}}
+
+/* Instagram埋め込み：スマホでも中央に収める */
+.ig-embed-wrap{width:100%;max-width:540px;margin:25px auto;overflow:hidden;display:flex;justify-content:center;}
+.ig-embed-wrap .instagram-media{margin:0 auto !important;min-width:0 !important;width:100% !important;max-width:540px !important;}
+.coming-soon{display:inline-block;padding:8px 16px;border-radius:999px;background:rgba(232,79,115,.10);font-weight:700;letter-spacing:.06em;}
+@media(max-width:600px){.igbox{overflow:hidden}.ig-embed-wrap{max-width:100%;padding:0 4px}.ig-embed-wrap .instagram-media{min-width:0 !important;width:100% !important;}}
 </style>
 </head>
 <body>
@@ -33,7 +39,7 @@ section{padding:85px 0}.cream{background:var(--cream)}.title{text-align:center;m
 </div>
 </section>
 
-<section id="about"><div class="wrap about"><div class="photo">ここに農園・いちごの写真を入れる</div><div><span class="tag">ABOUT YOU FARM</span><h2>千葉県野田市の<br>いちご農園です。</h2><p>YOU FARMは、千葉県野田市でいちごを栽培する農園です。</p><p>毎日の生育を見ながら、一粒一粒を大切に育てています。採れたてのおいしさを、できるだけ身近に感じてもらえる農園を目指しています。</p></div></div></section>
+<section id="about"><div class="wrap about"><div class="photo"><span class="coming-soon">Coming soon...</span></div><div><span class="tag">ABOUT YOU FARM</span><h2>千葉県野田市の<br>いちご農園です。</h2><p>YOU FARMは、千葉県野田市でいちごを栽培する農園です。</p><p>毎日の生育を見ながら、一粒一粒を大切に育てています。採れたてのおいしさを、できるだけ身近に感じてもらえる農園を目指しています。</p></div></div></section>
 
 <section id="commitment" class="cream"><div class="wrap"><div class="title"><small>OUR COMMITMENT</small><h2>YOU FARMのこだわり</h2></div><div class="grid">
 <div class="card"><div class="icon">🍓</div><h3>採れたてを大切に</h3><p>収穫したいちごを、できるだけ新鮮な状態でお届けします。</p></div>
@@ -50,7 +56,7 @@ section{padding:85px 0}.cream{background:var(--cream)}.title{text-align:center;m
 </div></div></section>
 
 <section id="sale" class="sale"><div class="wrap"><div class="title"><small>SALES INFORMATION</small><h2>販売について</h2></div><div class="grid">
-<div class="card"><h3>🍓 直売</h3><p>採れたてのいちごを販売しています。</p><p><strong>販売場所：</strong>準備中<br><strong>販売時間：</strong>準備中</p></div>
+<div class="card"><h3>🍓 直売</h3><p><span class="coming-soon">準備中 / Coming soon...</span></p><p><strong>販売場所：</strong>準備中<br><strong>販売時間：</strong>準備中</p></div>
 <div class="card"><h3>📱 最新情報</h3><p>収穫量や販売状況は、Instagramで随時お知らせします。</p><a class="btn" href="https://www.instagram.com/youfarm.noda/" target="_blank" rel="noopener">Instagramを見る</a></div>
 <div class="card"><h3>⚠️ お知らせ</h3><p>収穫量によって、販売状況や終了時間が変わる場合があります。</p></div>
 </div></div></section>
@@ -59,14 +65,14 @@ section{padding:85px 0}.cream{background:var(--cream)}.title{text-align:center;m
 <div class="igbox ig">
 <div class="igname">@youfarm.noda</div>
 <p>YOU FARMのInstagram投稿をホームページ内でご覧いただけます。</p>
-<div style="max-width:540px;margin:25px auto;">
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DdLo6TvE4_n/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#FFF;border:0;margin:1px;max-width:540px;min-width:280px;width:100%;"></blockquote>
+<div class="ig-embed-wrap">
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DdLo6TvE4_n/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#FFF;border:0;margin:0 auto;max-width:540px;min-width:0;width:100%;"></blockquote>
 </div>
 <a class="btn" href="https://www.instagram.com/youfarm.noda/" target="_blank" rel="noopener">Instagramでもっと見る</a>
 </div></div></section>
 <script async src="https://www.instagram.com/embed.js"></script>
 
-<section id="access" class="cream"><div class="wrap"><div class="title"><small>ACCESS</small><h2>アクセス</h2></div><div class="info"><div><h3>いちご農園 YOU FARM</h3><p>千葉県野田市<br>住所・販売場所は決まり次第掲載します。</p><p><strong>営業時間：</strong>準備中</p></div><div class="map">ここにGoogleマップを埋め込む</div></div></div></section>
+<section id="access" class="cream"><div class="wrap"><div class="title"><small>ACCESS</small><h2>アクセス</h2></div><div class="info"><div><h3>いちご農園 YOU FARM</h3><p>千葉県野田市<br>住所・販売場所は決まり次第掲載します。</p><p><strong>営業時間：</strong>準備中</p></div><div class="map"><span class="coming-soon">Coming soon...</span></div></div></div></section>
 
 <section><div class="wrap contact"><div class="title"><small>CONTACT</small><h2>お問い合わせ</h2></div><p>お問い合わせはInstagramのDMからお願いします。</p><a class="btn" href="https://www.instagram.com/youfarm.noda/" target="_blank" rel="noopener">Instagramで問い合わせる</a></div></section>
 </main>
